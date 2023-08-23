@@ -1,0 +1,51 @@
+.shop-by-category-image {
+  width: 15vw;
+  border: 1px solid #dedede;
+  height: fit-content;
+  border-radius: 0.6rem;
+  padding-bottom: 2rem;
+}
+.shop-by-category-image > img {
+  width: 15vw;
+  height: 25rem;
+}
+.shop-item-title {
+  font-family: "GothamBook";
+  font-size: 1.3rem;
+  margin: 1.5rem 0;
+  color: #3f3f3f;
+  text-align: center;
+}
+.shop-item-type {
+  font-family: "GothamBook";
+  font-size: 2rem;
+  margin: 2rem 8rem 0;
+  color: #3e8e07;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.25rem;
+}
+.show-full-price {
+  color: #76767e;
+  text-decoration: line-through;
+}
+.add-to-cart {
+  color: #fff;
+  background: #7AC118;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
+  width: 60%;
+  display: flex;
+  align-self: center;
+  margin-top: 2rem;
+  font-family: 'GothamBook';
+  font-size: 1.5rem;
+}
+.lock-icon{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}

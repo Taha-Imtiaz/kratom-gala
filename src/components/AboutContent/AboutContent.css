@@ -1,0 +1,14 @@
+.about-heading {
+    color: #7ac118;
+  }
+  .about-main {
+    font-size: 3.5rem;
+  }
+  .main-description {
+    font-size: 1.4rem;
+    padding: 1.5rem 0;
+  }
+  .main-description > p {
+    font-size: 1.25rem;
+    padding: 1.5rem 0;
+  }

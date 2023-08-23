@@ -1,0 +1,32 @@
+.shop-categories-container {
+  display: grid;
+  grid-template-rows: 15vh minmax(40vh, min-content);
+}
+.categoryTitle {
+  font-family: "GothamBook";
+  font-size: 3rem;
+  align-items: flex-start;
+}
+.categoryTitle span {
+  color: #7ac118;
+}
+.shop-categories-data {
+  display: grid;
+  grid-template-columns: 10vw 80vw 10vw;
+  grid-template-areas: ". item .";
+}
+.shop-category-items {
+  grid-area: item;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 1.4rem;
+}
+.order-btn{
+  margin: 5rem 0;
+  color: #fff;
+  background: #3E8E07;
+  border-radius: 0.4rem;
+  padding: 1.5rem 3rem;
+ justify-self: center;
+}

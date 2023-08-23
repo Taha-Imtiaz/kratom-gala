@@ -1,0 +1,10 @@
+.main-content-container {
+  display: grid;
+  grid-template-rows:
+    minmax(50vh, min-content) repeat(2, minmax(50vh, min-content))
+    minmax(30vh, min-content) repeat(2, minmax(50vh, min-content)) minmax(
+      30vh,
+      min-content
+    )
+    minmax(50vh, min-content) repeat(2, minmax(30vh, min-content))  minmax(50vh, min-content);
+}

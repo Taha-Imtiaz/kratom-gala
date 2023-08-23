@@ -1,0 +1,25 @@
+
+.kratom-list-item-image:not(img) {
+ width: 10rem;
+ height: 10rem;
+ background: #3E8E07;
+ border-radius: 50%;
+ display: flex;
+justify-content: center;
+opacity: 0.9;
+align-items: center;
+}
+.kratom-list-item-image  img{
+  width: 6rem;
+  height: 6rem;
+  
+}
+.kratom-text {
+  color: #fff;
+  margin: 2rem 0;
+  font-size: 1.8rem;
+}
+.kratom-subtext {
+  color: #fff;
+  margin: 2rem 0;
+}

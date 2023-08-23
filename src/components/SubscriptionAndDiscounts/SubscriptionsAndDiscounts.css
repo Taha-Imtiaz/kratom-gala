@@ -1,0 +1,40 @@
+.subscription-container {
+  display: grid;
+  grid-template-rows: minmax(20vh, min-content) minmax(15vh, min-content);
+  background: url("./../../assets/images/Rectangle 11 copy.png");
+  background-size: 100% 100%, cover;
+}
+.subscription-heading {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.subscription-heading span {
+  padding-bottom: 1rem;
+}
+.subscription-heading p {
+  font-size: 3rem;
+}
+.subscription-input {
+  position: relative;
+  justify-self: center;
+}
+.subscription-input input {
+  width: 55rem;
+  height: 4.5rem;
+  border-radius: 1rem;
+  text-indent: 2rem;
+  outline: none;
+}
+.subscription-input > div {
+    position: absolute;
+    left: 40rem;
+    width: 14rem;
+    height: 3.8rem;
+    font-size: 1.5rem;
+    background: #7AC118;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

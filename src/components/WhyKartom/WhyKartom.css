@@ -1,0 +1,20 @@
+.why-kartom-container {
+  display: grid;
+  grid-template-rows: 15vh minmax(30vh, min-content) 15vh;
+  grid-template-columns: 10vw 80vw 10vw;
+  grid-template-areas:
+    ". . ."
+    ". kartom-content ."
+    ". . .";
+  background-image: url("./../../assets/images/Rectangle 10.png");
+  background-size: 100% 100%, cover;
+}
+.kartom-content {
+  grid-area: kartom-content;
+  display: grid;
+  grid-template-rows: 10vh minmax(30vh, min-content);
+  font-size: 2rem;
+}
+.kartom-heading {
+  color: #fff;
+}

@@ -1,0 +1,44 @@
+.app {
+  display: grid;
+  grid-template-rows: minmax(10vh, min-content) minmax(70vh, min-content) minmax(
+      20vh,
+      min-content
+    );
+  grid-template-columns: minmax(100vw, min-content);
+  font-family: "GothamBook";
+}
+.header {
+  display: grid;
+  grid-template-rows:  minmax(10vh, min-content);
+}
+.main-page-content {
+  display: grid;
+  grid-template-rows: minmax(70vh, min-content);
+}
+.footer {
+  display: grid;
+  grid-template-rows: minmax(20vh, min-content);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column-flex{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham"), url(./fonts/GothamMedium.ttf) format("opentype");
+}
+@font-face {
+  font-family: "GothamBook";
+  src: local("GothamBook"), url(./fonts/GothamBook.ttf) format("opentype");
+}
+@font-face {
+  font-family: "Gotham-Black";
+  src: local("Gotham-Black"), url(./fonts/Gotham-Black.otf) format("opentype");
+}

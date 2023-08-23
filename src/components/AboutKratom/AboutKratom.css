@@ -1,0 +1,27 @@
+.about-kratom-container {
+  display: grid;
+  grid-template-rows: minmax(30vh, min-content);
+  grid-template-columns: repeat(2, 50vw);
+  padding-bottom: 5rem;
+}
+.about-image {
+  background-color: transparent;
+}
+.about-image img {
+  width: 100vw;
+}
+
+.kratom-content {
+  background-color: #fff;
+  padding: 9rem;
+  font-size: 2.25rem;
+}
+
+.book-now {
+  background-color: #7ac118;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  align-self: start;
+  font-size: 1.6rem;
+}

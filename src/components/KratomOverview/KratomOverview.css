@@ -1,0 +1,52 @@
+.kratom-overview-wrapper {
+  display: grid;
+  grid-template-columns: 10vw repeat(2, 1fr) 10vw;
+  grid-template-rows: 15vh minmax(50vh, min-content) 15vh;
+  grid-template-areas:
+    ". . . ."
+    ". heading image ."
+    ". . . .";
+  grid-gap: 2rem;
+  background-color: #eaf2e1;
+}
+.kratom-overview-content {
+  grid-area: heading;
+  font-size: 4rem;
+  font-weight: normal;
+  font-family: "GothamBook";
+}
+.green-head {
+  color: #7ac118;
+}
+.horizontal-line {
+  margin: 2.5rem 0;
+  width: 15rem;
+  height: 0.2rem;
+  background-color: #7ac118;
+}
+
+.kratom-description {
+  font-size: 1.4rem;
+  margin: 2.5rem 0;
+}
+.shop-now-btn {
+  background-color: #7ac118;
+  color: #ffffff;
+  object-fit: contain;
+  padding: 1rem 1.5rem;
+  border-radius: 0.6rem;
+  width: fit-content;
+  font-size: 1.6rem;
+}
+.kratom-overview-image {
+  grid-area: image;
+  background-image: url("../../assets/images/generative-ai-powder-flavored-explosion-white-background-with-kratom-leafs-mockup-matcha-tea (1) copy.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%, contain;
+  transform: translate(8%,-8%);
+}
+.kratom-overview-image img {
+  width: 40vw;
+  height: 40vw;
+}
+

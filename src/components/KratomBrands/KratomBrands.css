@@ -1,0 +1,30 @@
+.brands-container {
+  display: grid;
+  grid-template-rows: 20vh minmax(12vh, min-content) 10vh;
+}
+.brand-heading {
+  font-size:2.4rem;
+}
+.brand-heading > span {
+ color: #7ac118;
+  font-size: 3rem;
+}
+
+.brand-list {
+  display: grid;
+  grid-template-rows: minmax(12vh, min-content);
+  grid-template-columns: 10vw 80vw 10vw;
+  grid-template-areas: ". item .";
+}
+.kratom-brand-list-container {
+  grid-area: item;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.three-dots span {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 2rem;
+  background: #00C705;
+  border-radius: 50%;
+}

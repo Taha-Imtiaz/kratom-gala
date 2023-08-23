@@ -1,0 +1,70 @@
+.contact-us-container {
+  display: grid;
+  grid-template-rows: minmax(50vh, min-content);
+  grid-template-columns: repeat(2, 1fr);
+}
+.pill-image {
+  background: url("../../assets/images/herbal-capsule-natural-supplement-from-herbs.png");
+  background-size: 100% 100%, cover;
+}
+.contact-form {
+  display: grid;
+  grid-template-rows: repeat(2, 10vh) minmax(40vh, min-content);
+  grid-template-columns: 5vw minmax(35vw, min-content) 10vw;
+  grid-template-areas:
+    ". heading ."
+    ". description ."
+    ". form .";
+}
+.contact-us-heading {
+  grid-area: heading;
+  display: flex;
+  align-items: center;
+  font-size: 2.25rem;
+}
+.contact-us-content {
+  grid-area: description;
+
+  font-size: 1.3rem;
+}
+.contact-form-content-container {
+  grid-area: form;
+  display: grid;
+  grid-template-rows: minmax(40vh, min-content);
+  grid-template-columns: minmax(35vw, min-content);
+}
+.contact-form-content {
+  display: grid;
+  grid-template-rows: repeat(4, minmax(10vh, min-content));
+}
+.contact-form-content input {
+  width: 16vw;
+  height: 4rem;
+  margin-left: 1rem;
+  background: #fafaf9;
+  border: 1px solid #dedede;
+  border-radius: 0.6rem;
+  text-indent: 1.25rem;
+  outline: none;
+}
+.contact-form textarea {
+  width: 33vw;
+  margin-left: 1rem;
+  background: #fafaf9;
+  border: 1px solid #dedede;
+  border-radius: 0.6rem;
+  text-indent: 1.25rem;
+  padding-top: 1.25rem;
+  outline: none;
+}
+.submit-button {
+  width: 12rem;
+  height: 4rem;
+  background: #3e8e07;
+  border-radius: 0.4rem;
+  color: #fff;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  justify-self: flex-end;
+  margin-right: 2.5rem;
+}

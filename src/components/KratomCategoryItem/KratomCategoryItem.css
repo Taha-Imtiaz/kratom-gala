@@ -1,0 +1,14 @@
+.category-image img {
+  width: 17vw;
+}
+.item-title {
+  font-family: "GothamBook";
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+.item-type{
+  font-family: "GothamBook";
+  font-size: 1.6rem;
+  margin-bottom: 8rem;
+
+}
